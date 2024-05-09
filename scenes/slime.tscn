@@ -51,6 +51,7 @@ sprite_frames = SubResource("SpriteFrames_cp4iq")
 autoplay = "default"
 frame = 1
 frame_progress = 0.427156
+flip_h = true
 
 [node name="Killzones" parent="." instance=ExtResource("2_aina4")]
 
