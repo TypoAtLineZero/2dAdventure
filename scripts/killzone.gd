@@ -3,6 +3,7 @@ extends Area2D
 var health: int = 3: set = _set_health, get = _get_health
 @onready var timer = $Timer
 @onready var canvas_label_health = %CanvasLabel_Health
+@onready var rich_text_label_test = %RichTextLabel_test
 
 func _set_health(reduce_health: int) -> void:
 	health += reduce_health
